@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <title>lol-js demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>Hello, this is lol.js, a very fine library. It works!</p>
+        
+        <script type="module">
+            import lol from './lol.js';
+            const p = document.querySelector('p');
+            p.textContent = lol(p.textContent);
+        </script>
+
+    </body>
+</html>
