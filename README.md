@@ -5,13 +5,11 @@ lol-js
 
 ## Usage
 
-```javascript
-import lol from './lol.js'
+After including it with `<script src="lol.js"></script>`, use the global `lol` function:
 
+```html
 let lolText = lol(text)
 ```
-
-When using in the browser, don't forget to use `<script type="module">` to enable module import.
 
 ## Author and License
 

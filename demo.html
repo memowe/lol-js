@@ -7,8 +7,8 @@
     <body>
         <p>Hello, this is lol.js, a very fine library. It works!</p>
         
-        <script type="module">
-            import lol from './lol.js';
+        <script src="lol.js"></script>
+        <script>
             const p = document.querySelector('p');
             p.textContent = lol(p.textContent);
         </script>

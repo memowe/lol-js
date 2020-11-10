@@ -1,1 +1,1 @@
-export default text => text.replace(/([.!?])( |$)/g, ', lol$1 ')
+function lol(text) { return text.replace(/([.!?])( |$)/g, ', lol$1 ') }
