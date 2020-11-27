@@ -6,7 +6,7 @@ lol-js
 ## Usage
 
 ```javascript
-import lol from './lol.js'
+import lol from 'https://cdn.jsdelivr.net/gh/memowe/lol-js@v0.1/lol.js'
 
 let lolText = lol(text)
 ```
